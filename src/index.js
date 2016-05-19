@@ -28,7 +28,7 @@ exports.supportHistory = Boolean(replaceState);
  */
 exports.replaceHash = function (hash) {
     if (replaceState) {
-        history[replaceState](null, null, hash);
+        history[replaceState](null, null, '#' + hash);
     } else {
         location.hash = hash;
     }

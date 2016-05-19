@@ -1,7 +1,7 @@
 {
   "name": "blear.core.url",
   "version": "1.0.0",
-  "description": "location querystring",
+  "description": "浏览器 URL 操作",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
     "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run",
@@ -17,7 +17,7 @@
   "keywords": [
     "blear",
     "core",
-    "querystring",
+    "url",
     "cloudcome",
     "ydr.me"
   ],
